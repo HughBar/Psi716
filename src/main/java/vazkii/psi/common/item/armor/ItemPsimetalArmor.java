@@ -107,7 +107,7 @@ public class ItemPsimetalArmor extends ArmorItem implements IPsimetalTool, IPsiE
 	@Nullable
 	@Override
 	public ICapabilityProvider initCapabilities(ItemStack stack, @Nullable CompoundTag nbt) {
-		return new ArmorSocketable(stack, 3);
+		return new ArmorSocketable(stack, 10);
 	}
 
 	public void cast(ItemStack stack, PsiArmorEvent event) {
